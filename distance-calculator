@@ -1,0 +1,20 @@
+# Part A — The Distance Calculator
+
+import math
+
+# Ask for user input
+x1 = float(input("Enter x1: "))
+y1 = float(input("Enter y1: "))
+x2 = float(input("Enter x2: "))
+y2 = float(input("Enter y2: "))
+
+# Calculate the distance
+distance = math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2))
+
+# Display the result rounded to 2 decimal places
+print(f"\nThe distance between the two points is: {distance:.2f}")
+
+# Reflection:
+# Using a library like math is more practical because it provides reliable, optimized functions
+# that save time and reduce errors. Instead of manually coding complex operations like square roots,
+# we can use built-in tools that are already tested and efficient.
